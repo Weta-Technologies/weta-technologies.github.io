@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mac Apps — Weta Technologies</title>
-    <meta name="description" content="Free, native Mac apps from Weta Technologies: SleepLess keeps your Mac awake, JuiceLeft shows exactly how much battery is left, and JotPad is on the way. Download straight from GitHub." />
+    <meta name="description" content="Free, native Mac apps from Weta Technologies: SleepLess keeps your Mac awake, JuiceLeft shows exactly how much battery is left, and JotPad is a plain-text editor that feels instantly familiar. Download straight from GitHub." />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f9fb" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b1823" />
@@ -14,7 +14,7 @@
     <meta property="og:site_name" content="Weta Technologies" />
     <meta property="og:locale" content="en_NZ" />
     <meta property="og:title" content="Mac Apps — Weta Technologies" />
-    <meta property="og:description" content="Free, native Mac apps: SleepLess, JuiceLeft and, soon, JotPad. Download straight from GitHub." />
+    <meta property="og:description" content="Free, native Mac apps: SleepLess, JuiceLeft and JotPad. Download straight from GitHub." />
     <meta property="og:url" content="https://weta-technologies.github.io/mac-apps/" />
     <meta property="og:image" content="https://weta-technologies.github.io/assets/og-image.png" />
     <meta property="og:image:width" content="1200" />
@@ -22,7 +22,7 @@
     <meta property="og:image:alt" content="Weta Technologies — powerful, careful and secure software. Downloads." />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mac Apps — Weta Technologies" />
-    <meta name="twitter:description" content="Free, native Mac apps: SleepLess, JuiceLeft and, soon, JotPad. Download straight from GitHub." />
+    <meta name="twitter:description" content="Free, native Mac apps: SleepLess, JuiceLeft and JotPad. Download straight from GitHub." />
     <meta name="twitter:image" content="https://weta-technologies.github.io/assets/og-image.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -82,10 +82,10 @@
       <!-- ============================================================================
            DOWNLOAD LINKS — the only place they live on this site.
            Each Download button below points at the app's "latest release" asset on GitHub:
-             SleepLess  https://github.com/Weta-Technologies/SleepLess/releases/latest/download/SleepLess.dmg
-             JuiceLeft  https://github.com/Weta-Technologies/JuiceLeft/releases/latest/download/JuiceLeft.dmg
-           RELEASE: .dmg → .pkg at the 1.2.0 release — change the two hrefs to SleepLess.pkg /
-           JuiceLeft.pkg when that ships. JotPad has no release yet (its button is deliberately not a link).
+             SleepLess  https://github.com/Weta-Technologies/SleepLess/releases/latest/download/SleepLess.pkg
+             JuiceLeft  https://github.com/Weta-Technologies/JuiceLeft/releases/latest/download/JuiceLeft.pkg
+             JotPad     https://github.com/Weta-Technologies/JotPad/releases/latest/download/JotPad.dmg
+           Asset names are fixed by each app's release.sh, so these never change between versions.
            ============================================================================ -->
       <section class="section" aria-label="Apps">
         <div class="container">
@@ -96,8 +96,7 @@
               <h2 class="app-name" id="app-sleepless">SleepLess</h2>
               <p class="app-line">Keep your Mac awake &mdash; lid open or closed.</p>
               <div class="app-actions">
-                <!-- RELEASE: .dmg → .pkg at the 1.2.0 release -->
-                <a class="btn btn-primary" href="https://github.com/Weta-Technologies/SleepLess/releases/latest/download/SleepLess.dmg">
+                <a class="btn btn-primary" href="https://github.com/Weta-Technologies/SleepLess/releases/latest/download/SleepLess.pkg">
                   <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" /></svg>
                   Download
                 </a>
@@ -111,8 +110,7 @@
               <h2 class="app-name" id="app-juiceleft">JuiceLeft</h2>
               <p class="app-line">Know exactly how much battery is left.</p>
               <div class="app-actions">
-                <!-- RELEASE: .dmg → .pkg at the 1.2.0 release -->
-                <a class="btn btn-primary" href="https://github.com/Weta-Technologies/JuiceLeft/releases/latest/download/JuiceLeft.dmg">
+                <a class="btn btn-primary" href="https://github.com/Weta-Technologies/JuiceLeft/releases/latest/download/JuiceLeft.pkg">
                   <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" /></svg>
                   Download
                 </a>
@@ -123,10 +121,14 @@
 
             <article class="app-card app-card--jotpad" aria-labelledby="app-jotpad">
               <img class="app-icon" src="/assets/icons/jotpad-256.png" alt="JotPad icon: a lowercase j on a cream page" width="96" height="96" />
-              <h2 class="app-name" id="app-jotpad">JotPad <span class="status">Coming soon</span></h2>
+              <h2 class="app-name" id="app-jotpad">JotPad</h2>
               <p class="app-line">A plain-text editor that feels instantly familiar.</p>
               <div class="app-actions">
-                <span class="btn btn-soon" aria-disabled="true">Coming soon</span>
+                <a class="btn btn-primary" href="https://github.com/Weta-Technologies/JotPad/releases/latest/download/JotPad.dmg">
+                  <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" /></svg>
+                  Download
+                </a>
+                <a class="link-arrow" href="https://weta-technologies.github.io/JotPad/">Learn more <span class="arr" aria-hidden="true">&rarr;</span></a>
               </div>
               <p class="app-meta">Free<span class="sep" aria-hidden="true">&middot;</span>macOS 13+<span class="sep" aria-hidden="true">&middot;</span>Apple Silicon</p>
             </article>
@@ -159,6 +161,7 @@
                 <li><a href="/mac-apps/">Mac Apps</a></li>
                 <li><a href="https://weta-technologies.github.io/SleepLess/">SleepLess</a></li>
                 <li><a href="https://weta-technologies.github.io/JuiceLeft/">JuiceLeft</a></li>
+                <li><a href="https://weta-technologies.github.io/JotPad/">JotPad</a></li>
               </ul>
             </div>
             <div class="footer-group">
@@ -174,6 +177,7 @@
               <ul class="footer-links">
                 <li>SleepLess <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/SleepLess/blob/main/LICENSE">Licence</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/SleepLess/blob/main/PRIVACY.md">Privacy</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/SleepLess/releases">Releases</a></li>
                 <li>JuiceLeft <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JuiceLeft/blob/main/LICENSE">Licence</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JuiceLeft/blob/main/PRIVACY.md">Privacy</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JuiceLeft/releases">Releases</a></li>
+                <li>JotPad <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JotPad/blob/main/LICENSE">Licence</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JotPad/blob/main/PRIVACY.md">Privacy</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="https://github.com/Weta-Technologies/JotPad/releases">Releases</a></li>
               </ul>
             </div>
           </nav>
